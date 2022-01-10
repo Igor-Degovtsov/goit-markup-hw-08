@@ -1,15 +1,19 @@
+@import './utils/vars';
 @import './base/reset';
-@import './utils/variables';
-
 @import './components/container';
-@import './components/header';
-@import './components/hero';
-@import './components/rules';
-@import './components/work';
-@import './components/work-buttons';
-@import './components/our-works';
-@import './components/team';
-@import './components/custumers';
-@import './components/footer';
+@import './utils/hidden';
+
+@import './components/section';
+@import './components/btn-section';
 @import './components/modal';
 
+@import './layout/header';
+@import './layout/hero';
+@import './layout/features';
+@import './layout/works';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
+
+@import './portfolio/buttons';
+@import './portfolio/images';
