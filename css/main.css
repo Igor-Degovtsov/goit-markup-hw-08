@@ -1476,9 +1476,16 @@ img {
 }
 
 .example__info {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-top: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .example__info {
+    flex-grow: 1;
+  }
 }
 
 .example__picture-container {
