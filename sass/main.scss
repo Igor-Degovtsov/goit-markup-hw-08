@@ -1,19 +1,19 @@
-@import './utils/vars';
-@import './base/reset';
-@import './components/container';
-@import './utils/hidden';
+@import "./utils/vars";
+@import "./base/reset";
+@import "./components/container";
+@import "./utils/hidden";
+@import "./components/common";
+@import "./components/logo";
+@import "./components/social";
+@import "./components/modal";
+@import "./components/mobile-menu";
 
-@import './components/section';
-@import './components/btn-section';
-@import './components/modal';
-
-@import './layout/header';
-@import './layout/hero';
-@import './layout/features';
-@import './layout/works';
-@import './layout/team';
-@import './layout/client';
-@import './layout/footer';
-
-@import './portfolio/buttons';
-@import './portfolio/images';
+@import "./section/header";
+@import "./sections/hero";
+@import "./sections/advantages";
+@import "./sections/specialization";
+@import "./sections/team";
+@import "./section/clients";
+@import "./sections/footer";
+@import "./sections/portfolio_filter";
+@import "./sections/portfolio_example";
