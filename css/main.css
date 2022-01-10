@@ -1129,7 +1129,6 @@ img {
 @media screen and (max-width: 1199px) {
   .clients__list {
     margin-bottom: -30px;
-    margin-right: -30px;
   }
 }
 
