@@ -174,7 +174,8 @@ img {
 }
 
 .backdrop.is-hidden .modal {
-  transform: scale(7);
+  transform: scale(1.7) rotate(90deg);
+  transition: transform 500ms;
 }
 
 .modal {
@@ -185,8 +186,8 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  transition: transform 750ms;
+  transform: translate(-50%, -50%) scale(1) rotate(0);
+  transition: transform 500ms;
   padding: 40px;
 }
 
